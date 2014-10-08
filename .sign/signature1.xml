@@ -12,15 +12,15 @@
 </Reference>
 <Reference URI="info/manifest.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>0mSW5ZBZ2nOzZ8Txaoa/rI4B+Ynz42M0P3ZDrv6af0M=</DigestValue>
+<DigestValue>3x1vUIbEAcULkPr7TAzJzwhViGHCNYeQZS1iwFxFBmA=</DigestValue>
 </Reference>
 <Reference URI="bin/TizenFacebookAuth.exe">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>dgKpRrWkJt/OWtqpZFpIZKAFobYHs5g7xu+uWGxcoJY=</DigestValue>
+<DigestValue>BOfOiJ65im2KiaNGaLdGHyzFE5Cl225zWnor96dgu5E=</DigestValue>
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>CkE1uPO/mc35EG7kDgFTZZNfQuggc0VWyYMALp+tobk=</DigestValue>
+<DigestValue>/IFePtI3y3Uq25+2SYQACZdfPuXHzqNuCwwX5vOUJ5U=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -31,9 +31,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-cCJaubojp22DMfcb5azm9HwzgfuM4i9Ja1yKORIP67AtLed5A/sG7u/b3y5Rd0CBS/xWj2xXhfCK
-vm5o+wG59XZYV//QpykqFeyqt8ozxftn1B9zUFD5Fcm20F7aOT+8AFpK6zC5jyEVo+EtvR/P/EsM
-U81xCFnMVwcGYQBeek4=
+KKf/cdgJwMIKdSRzU8ADEZFDrV0LlR+oaEfG84ucTYU6dMKn36KoEzT1kNIcR422HWFWVrljWFFg
+CiEXdqwiK8AMNmMlT5n7UexHnM0laqOWLbLu3rcTJwppr6mTtfCa9fSHOZt1yJwyLq86CJDFmLVp
+8wY3J7ohzUiGcF0dZvU=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

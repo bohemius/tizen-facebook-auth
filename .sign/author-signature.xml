@@ -12,11 +12,11 @@
 </Reference>
 <Reference URI="info/manifest.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>0mSW5ZBZ2nOzZ8Txaoa/rI4B+Ynz42M0P3ZDrv6af0M=</DigestValue>
+<DigestValue>3x1vUIbEAcULkPr7TAzJzwhViGHCNYeQZS1iwFxFBmA=</DigestValue>
 </Reference>
 <Reference URI="bin/TizenFacebookAuth.exe">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>dgKpRrWkJt/OWtqpZFpIZKAFobYHs5g7xu+uWGxcoJY=</DigestValue>
+<DigestValue>BOfOiJ65im2KiaNGaLdGHyzFE5Cl225zWnor96dgu5E=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -27,9 +27,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-b1O2vE+b/15mhaVe2Ze0H64bYXftWJihf6xOvCA0i4hrUG96PEQm/GdamdilsI3EGmyCIoevhbj5
-i+5HyBxbbd+sW39HWhpfQtA4ozF76D30YPxm/6DuSEzxyM6v+TzJtHF+n7y2R4ajKVcwtbqQzF/e
-13EmusSq4nc1orlX1UE=
+S21LTTfcBmNRL2o3ARNXSTNk5aKiX3S+z9G3EFsDwBg3hujAjl5I9Uuz7UtYBFmoGwlH3R3AGQiL
+uLh+Vs7+ViLQARawr9dgMSd/rPYAJMztHTb9WiTh9dO4D5Cp4LVlycjBwqo8B8q4cGyt1onZeIfj
+o02Xkqcn4VYOVFaK8W8=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
