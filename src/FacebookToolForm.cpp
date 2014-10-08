@@ -38,7 +38,7 @@ result FacebookForm::OnInitializing(void) {
 
 	SetBackgroundColor(Color::GetColor(COLOR_ID_CYAN));
 	__accessUrl =
-			L"https://www.facebook.com/dialog/oauth?client_id=316072995237651&redirect_uri=http://www.facebook.com/connect/login_success.html&response_type=token&display=touch&scope=user_photos, publish_actions";
+			L"https://www.facebook.com/dialog/oauth?client_id=your facebook ap id goes here&redirect_uri=http://www.facebook.com/connect/login_success.html&response_type=token&display=touch&scope=user_photos, publish_actions";
 
 	__pWeb = new (std::nothrow) Web();
 
