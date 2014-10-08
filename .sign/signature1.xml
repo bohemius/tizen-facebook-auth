@@ -2,25 +2,25 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
-<Reference URI="res/screen-size-normal/IDL_FORM.xml">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>kytVP79snm7CIRvesar3Fatg0F90coN6WQAXuW1gcjo=</DigestValue>
-</Reference>
 <Reference URI="shared/res/screen-density-xhigh/mainmenu.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>1d0oEZHqPn+QzNzGIHwj9ODby6x9ggFs9uOsav6jPNs=</DigestValue>
 </Reference>
+<Reference URI="res/screen-size-normal/IDL_FORM.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kytVP79snm7CIRvesar3Fatg0F90coN6WQAXuW1gcjo=</DigestValue>
+</Reference>
 <Reference URI="info/manifest.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>2ZgJeUSEVII0RV9ecF5Wh0+WD+hSSPcQ6n/96g5uCOo=</DigestValue>
+<DigestValue>0mSW5ZBZ2nOzZ8Txaoa/rI4B+Ynz42M0P3ZDrv6af0M=</DigestValue>
 </Reference>
-<Reference URI="bin/FacebookTool.exe">
+<Reference URI="bin/TizenFacebookAuth.exe">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>vsK+Mh25oqdjwNrkYNMFBmx/ZVEf8+6yUPsFmKe63Do=</DigestValue>
+<DigestValue>dgKpRrWkJt/OWtqpZFpIZKAFobYHs5g7xu+uWGxcoJY=</DigestValue>
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>GeI9qtBulBduk2o2U4ILfFU72/XOcIep9Vl8gSHNlao=</DigestValue>
+<DigestValue>CkE1uPO/mc35EG7kDgFTZZNfQuggc0VWyYMALp+tobk=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -31,9 +31,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-phAhSmMyfuEJKTFTjChy47bwebfh/ZOzB4OLS1+3TcL/8bfx8PsiZ+mRcG77PnaNpqhYZvhrwx5Y
-rSRSa29f/HrN3Jy18o8pPeOZ0njBAEQORgGM+A45MK99qiqK0v3Lvnxx5h+0tdyJkWMpzRy7M2Ll
-M4Ybfcm0R5KJmTsuIpw=
+cCJaubojp22DMfcb5azm9HwzgfuM4i9Ja1yKORIP67AtLed5A/sG7u/b3y5Rd0CBS/xWj2xXhfCK
+vm5o+wG59XZYV//QpykqFeyqt8ozxftn1B9zUFD5Fcm20F7aOT+8AFpK6zC5jyEVo+EtvR/P/EsM
+U81xCFnMVwcGYQBeek4=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

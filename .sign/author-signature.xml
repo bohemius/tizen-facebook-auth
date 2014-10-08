@@ -2,21 +2,21 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
-<Reference URI="res/screen-size-normal/IDL_FORM.xml">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>kytVP79snm7CIRvesar3Fatg0F90coN6WQAXuW1gcjo=</DigestValue>
-</Reference>
 <Reference URI="shared/res/screen-density-xhigh/mainmenu.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>1d0oEZHqPn+QzNzGIHwj9ODby6x9ggFs9uOsav6jPNs=</DigestValue>
 </Reference>
+<Reference URI="res/screen-size-normal/IDL_FORM.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kytVP79snm7CIRvesar3Fatg0F90coN6WQAXuW1gcjo=</DigestValue>
+</Reference>
 <Reference URI="info/manifest.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>2ZgJeUSEVII0RV9ecF5Wh0+WD+hSSPcQ6n/96g5uCOo=</DigestValue>
+<DigestValue>0mSW5ZBZ2nOzZ8Txaoa/rI4B+Ynz42M0P3ZDrv6af0M=</DigestValue>
 </Reference>
-<Reference URI="bin/FacebookTool.exe">
+<Reference URI="bin/TizenFacebookAuth.exe">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>vsK+Mh25oqdjwNrkYNMFBmx/ZVEf8+6yUPsFmKe63Do=</DigestValue>
+<DigestValue>dgKpRrWkJt/OWtqpZFpIZKAFobYHs5g7xu+uWGxcoJY=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -27,25 +27,27 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-MbHG3ifZ66nb1IaZtSzm7j8bHZJKqWIPNRmKW9khAew5nBizi0z4rPPw3CNZ4zFk/LsqQmTa8bMJ
-xagfr+RaKLTV+giex/2a+jHTTl7UBWiuBvmtVrn7YDMs/0nkJ2wnTUJ2ffOngaHUIYm2YxD2ZcTm
-zIKFE50wkmKzOqzYHcc=
+b1O2vE+b/15mhaVe2Ze0H64bYXftWJihf6xOvCA0i4hrUG96PEQm/GdamdilsI3EGmyCIoevhbj5
+i+5HyBxbbd+sW39HWhpfQtA4ozF76D30YPxm/6DuSEzxyM6v+TzJtHF+n7y2R4ajKVcwtbqQzF/e
+13EmusSq4nc1orlX1UE=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
 <X509Certificate>
-MIIClTCCAX2gAwIBAgIGAUeD3W0HMA0GCSqGSIb3DQEBBQUAMFYxGjAYBgNVBAoMEVRpemVuIEFz
+MIIDCDCCAfCgAwIBAgIGAUhm8QizMA0GCSqGSIb3DQEBBQUAMFYxGjAYBgNVBAoMEVRpemVuIEFz
 c29jaWF0aW9uMRowGAYDVQQLDBFUaXplbiBBc3NvY2lhdGlvbjEcMBoGA1UEAwwTVGl6ZW4gRGV2
-ZWxvcGVycyBDQTAeFw0xMjExMDEwMDAwMDBaFw0xOTAxMDEwMDAwMDBaMBExDzANBgNVBAMMBmF1
-dGhvcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAldS//x0IHa6xrKwvkRrdm+P3s32CnH5s
-QnFyi3Glwu2fzzO43LM9DFumA7X6Q1EDFwIbIE8+lKAoiruTAl4pdgB4hZPsg3qXhD/0wQur33Kn
-3ErPVMIuhGZGz/E0c3eeY8VkS1r/aZ7egeZgsHb0Jt/8ALtltWfzHpa2hevNZ7sCAwEAAaMyMDAw
-DAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwDQYJKoZIhvcN
-AQEFBQADggEBAJO7tztV1A/PCt0pTtJmVPhW2xK7czo4mDx/MUQln3vlR8NS/sX3yfr1ur9Qq9N/
-dSWatuJJFt4O8ZtMdLsXKhxMqc4pvn/ksUNrQnjijvm5ChlRhuwgzd4aQDWM5ieHHap/k8C00ZvG
-Mfp8HM/lB08Rocl4jjtdKoM8anRz1lXN/qadazyNSS1/BzotsG8xPkRRnkS0gqTGHdZZNtn5HqHk
-2wKU+rTw6ZFy384Cv5dHklOsTHoSpZTSynABTpx2dRwG1IfVFvvcw4VAREIZT7bh5zSz7CrCV5Dh
-F3n+MbHM3x4r7ZFq3HDLnOaZHcetJcY/p39kRzoTzgjsu7DBTc0=
+ZWxvcGVycyBDQTAeFw0xMjExMDEwMDAwMDBaFw0xOTAxMDEwMDAwMDBaMIGDMQswCQYDVQQGEwJD
+WjEPMA0GA1UECAwGUHJhZ3VlMQ8wDQYDVQQHDAZQcmFndWUxGDAWBgNVBAoMD0Jsb2NzaG9wIHMu
+ci5vLjEhMB8GCSqGSIb3DQEJARYSYm9oZW1pdXNAZ21haWwuY29tMRUwEwYDVQQDDAxKaXJrYSBQ
+cmF6YWswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK/4JNVsYNEYEJzvVnInkviYhk0tR2Sq
+yQV9zoe/ZpCs6XOCdPSNjJHNvhVFW3KUy2R0/IHaTc4EwY3Z4rIJavDRBKqGQ+Z2gGyoo7eqfaAd
+JD45Ox0MVgCSDqLJlQdf2f54Ur9ynQCnN0salfR8v5OcbWarnIK8ha41+9mFGM6xAgMBAAGjMjAw
+MAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMDMA0GCSqGSIb3
+DQEBBQUAA4IBAQB44Slmu+20iwu0fI9dZn9iZute2QBjAlvEMNHFGF3deAr1dOMYOowWZDPqS4hQ
+dEKXcMULE5hT3xzloZ1cRWBH7tH18L5hvmIfI9lPahXBWwj+/iQZANEFYpbtUzg8Mou+6eC36aay
+R3vyzQm3jTsTiDUkOR3ij/rOACpE3nCumYEjrYvxxFMYZtlW+pLWtcHsya+pm/8o+s2xbGAQPWYe
+6NodkxiOksmbtMMA0bwfRjmk7ifk+0cJ/Hm1Eqjgd2rh012vPNxSWKvv/V5cWLw6VlkKDxjNYfs/
+Z+MI5I9WqSNbzgd5sB1KmMGyBmS+UHSLdGm3hrm+cUqZ5qrC/Mfx
 </X509Certificate>
 <X509Certificate>
 MIIDOTCCAiGgAwIBAgIBATANBgkqhkiG9w0BAQUFADBYMRowGAYDVQQKDBFUaXplbiBBc3NvY2lh
